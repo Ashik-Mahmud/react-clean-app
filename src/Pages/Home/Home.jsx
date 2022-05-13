@@ -1,12 +1,11 @@
 import React from "react";
+import HeroBanner from "./HeroBanner/HeroBanner";
 
 const Home = () => {
   return (
-    <div>
-      <button className="btn btn-primary font-poppins">
-        Get all the resources
-      </button>
-    </div>
+    <section>
+      <HeroBanner />
+    </section>
   );
 };
 

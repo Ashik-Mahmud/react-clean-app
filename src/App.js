@@ -12,19 +12,20 @@ import Header from "./Shared/Header/Header";
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
-          {/* normal routes  */}
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+      <Header >
+        <Routes>
+            {/* normal routes  */}
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
 
-          {/* login & sign up  */}
-          <Route path="/login" element={<Login />} />
-          <Route path="/sing-up" element={<SignUp />} />
+            {/* login & sign up  */}
+            <Route path="/login" element={<Login />} />
+            <Route path="/sing-up" element={<SignUp />} />
 
-      </Routes>
+        </Routes>
+      </Header>
       <Footer />
     </>
   );
