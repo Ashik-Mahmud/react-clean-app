@@ -5,7 +5,6 @@ import Home from "./Pages/Home/Home";
 import Login from "./Pages/Login/Login/Login";
 import SignUp from "./Pages/Login/SignUp/SignUp";
 import Services from "./Pages/Services/Services";
-import Footer from "./Shared/Footer/Footer";
 import Header from "./Shared/Header/Header";
 
 
@@ -25,8 +24,8 @@ function App() {
             <Route path="/sing-up" element={<SignUp />} />
 
         </Routes>
+        {/* <Footer /> */}
       </Header>
-      <Footer />
     </>
   );
 }

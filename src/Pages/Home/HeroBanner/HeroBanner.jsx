@@ -3,15 +3,15 @@ import bucketGirl from "../../../Assets/image/bucketgirl.png";
 const HeroBanner = () => {
   return (
     <div className="hero bg-accent pt-28 overflow-hidden">
-      <div className="hero-content justify-between flex-col lg:flex-row-reverse">
+      <div className="hero-content  flex-col-reverse lg:flex-row-reverse">
         <img
           src={bucketGirl}
-          className="max-w-xl rounded-lg mb-[-1rem]"
+          className="max-w-sm md:max-w-md lg:max-w-xl rounded-lg mb-[-1rem]"
           alt=""
         />
         <div className="lg:w-2/4">
           <h3 className="text-lg">Best Quality</h3>
-          <h1 className="text-5xl mt-3 text-slate-700 font-bold">
+          <h1 className="text-5xl mt-3 font-bold">
             Professional Cleaning Service
           </h1>
           <p className="py-6">
