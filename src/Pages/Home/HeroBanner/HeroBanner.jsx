@@ -2,11 +2,11 @@ import React from "react";
 import bucketGirl from "../../../Assets/image/bucketgirl.png";
 const HeroBanner = () => {
   return (
-    <div className="hero bg-accent pt-28 overflow-hidden">
+    <div className="hero bg-accent pt-28 overflow-hidden z-20">
       <div className="hero-content  flex-col-reverse lg:flex-row-reverse">
         <img
           src={bucketGirl}
-          className="max-w-sm md:max-w-md lg:max-w-xl rounded-lg mb-[-1rem]"
+          className="max-w-sm md:max-w-md lg:max-w-xl z-0 rounded-lg mb-[-1rem]"
           alt=""
         />
         <div className="lg:w-2/4">
