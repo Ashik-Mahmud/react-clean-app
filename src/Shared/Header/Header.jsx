@@ -46,7 +46,7 @@ const Header = ({ children }) => {
         </ul>
       </li>
       <label className="swap swap-rotate mt-3 md:mt-0">
-        <input type="checkbox" />
+        <input type="checkbox" data-toggle-theme="dark,light" />
 
         <svg
           className="swap-on fill-current w-5 h-5"
